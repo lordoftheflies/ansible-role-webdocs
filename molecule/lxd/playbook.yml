@@ -1,0 +1,9 @@
+---
+- name: Converge
+  hosts: all
+  vars:
+    - webdocs_deployment_users_home: /root
+    - webdocs_testing_provider: lxd
+
+  roles:
+    - webdocs

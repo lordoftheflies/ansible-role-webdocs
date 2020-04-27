@@ -1,0 +1,5 @@
+---
+# roles/webdocs/vars/debian.yml
+
+# Debian specific vars
+webdocs_package_extension: 'deb'

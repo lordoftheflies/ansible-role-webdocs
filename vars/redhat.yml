@@ -1,0 +1,4 @@
+---
+# roles/webdocs/vars/debian.yml
+
+webdocs_package_extension: 'rpm'
